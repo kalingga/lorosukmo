@@ -1,0 +1,279 @@
+body{
+	font:normal 11px Verdana;
+	margin:0;
+	background-color:#EEE;
+}
+form,input,button,tr,td,table,th,select{
+	font-size:11px;
+}
+
+form{
+	margin:0;
+	padding:0;
+}
+#ticker{
+	height:20px;
+	background-color:#FFF9F2;
+	border:1px solid #CCCCCC;
+}
+#ticker_text{
+	font:normal 11px Verdana;
+	margin:2px 10px;
+	text-align:center;
+}
+#outer{
+	border:1px solid #0B3656; width:1004px; padding:2px; margin:5px auto; background-color:#FFF;
+}
+#body{
+	width:996px;
+	margin:5px auto;
+}
+#banner{
+	background-image:url(banner.png);
+	background-repeat:no-repeat;	
+	height:135px;
+}
+#head{
+/*	background-color:#0B3656;*/
+	background-image:url(banner.png);
+	height:25px;
+	margin:0 0 5px 0;
+}
+#texthead{
+	font:normal 11px Verdana;
+	color:#FFF;
+	font-weight:bold;
+}
+#texthead #form_search{
+	float:right;
+	margin-right:5px;
+}
+#texthead #currDate{
+	margin:4px 0 0 4px;
+	float:left;
+}
+#footer{
+	background-color:#0B3656;
+	height:28px;
+}
+#textfooter{
+	padding:8px 0 0 0;
+	text-align:center;
+	font:bold 11px Verdana;
+	color:#FFF;
+}
+#textfooter a{
+	color:#FFF;
+}
+#main{
+	padding-top: 3px;
+}
+#sidebar{
+	float:left;
+	width:202px;
+}
+#page{
+	float:right;
+	width:782px;
+	padding:3px;
+	border:1px solid #A5B3BE;
+	margin-bottom:5px;
+}
+
+#page #headpage{
+	height:20px;
+	background-image:url(head_page.png);
+	padding:5px 0 0 25px;
+	font-weight:bold;
+	margin-bottom:5px;
+	text-transform:uppercase;	
+}
+
+#page2{
+	float:right;
+	width:988px;
+	padding:3px;
+	border:1px solid #A5B3BE;
+	margin-bottom:5px;
+}
+
+#page2 #headpage{
+	height:20px;
+	background-image:url(head_page2.png);
+	padding:5px 0 0 25px;
+	font-weight:bold;
+	margin-bottom:5px;
+	text-transform:uppercase;	
+}
+.free{
+	clear:both;
+	float:none;
+}
+.panel{
+	margin-bottom:5px;
+
+}
+.panel .headpanel{
+	height:25px;
+	background-image:url(head_panel.png);
+}
+.panel .headpanel div{
+	padding:5px 0 0 25px;
+	font:bold 11px Verdana;
+}
+.panel .mainpanel{
+	background-image:url(main_panel.png);
+	background-repeat:repeat-y;
+	padding:0 2px;
+	padding-top:3px;
+}
+.panel .footpanel{
+	height:10px;
+	background-image:url(foot_panel.png);
+	background-repeat:no-repeat;
+}
+
+.panel .content{
+	padding-left:15px;
+	color: #000000;
+	font-weight: normal;
+}
+
+.panel .content a{
+	text-decoration: none;
+}
+
+.panel .content a:hover{
+	color: #8cb85c;
+	font-weight: bold;
+}
+
+
+.fadecontentwrapper{ /* Total width: 350px+5px+5px=360px Read relative width relations for the other two containers below! */
+position: relative;
+width: 900px;
+height: 1024px; /* Set height to be able to contain height of largest content shown*/
+border-top: 3px solid #8cb85c;
+overflow: hidden;
+}
+
+.fadecontent{ /*style for each fade content DIV within wrapper. Total width: 330px+10px+10px=350px (".fadecontentwrapper" width minus its padding and borders, if any) */
+position: absolute;
+background: white;
+padding: 5px;
+visibility: hidden;
+width: 900px;
+}
+
+.fadecontenttoggler{ /*style for DIV used to contain toggler links. Total width: 350px+5px+5px=360px */
+width: 98%;
+border-top: 5px solid maroon;
+border-top-width: 0;
+overflow: hidden;
+}
+
+.fadecontenttoggler a{ /*style for every navigational link within toggler */
+text-decoration: none;
+border-right: 2px solid #FFFFFF;
+padding: 0 5px;
+float: left;
+display: block;
+font-weight: bold;
+color: black;
+}
+
+.fadecontenttoggler a:hover{
+background: #8cb85c;
+color: white;
+}
+
+.fadecontenttoggler a.toc{ /*style for individual toggler links (page 1, page 2, etc). ".toc" class auto generated! */
+color: white;
+padding-top: 2px;
+background: #0B3656;
+height: 14px;
+text-decoration: none;
+}
+
+.fadecontenttoggler a.prev, .fadecontenttoggler a.next{ /*style for "prev" and "next" toggler links. ".prev" and ".next" classes auto generated! */
+color: black;
+}
+
+.fadecontenttoggler a.prev:hover, .fadecontenttoggler a.next:hover{
+color: white;
+background: black;
+}
+
+.fadecontenttoggler a.selected{ /*style for selected page's toggler link. ".selected" class auto generated! */
+background: #8cb85c;
+color: white;
+}
+
+.img{
+	margin:5px;
+	padding:5px;
+	border:1px solid #CCC;
+	background-color:#F2F2F2;
+}
+.diverr{
+	background-color:#FFE1E1;
+	border:1px solid #FF0000;
+}
+.divsucc{
+	background-color:#D2E9FF;
+	border:1px solid #0099FF;
+}
+a:hover{
+	color:#000;
+}
+.tblbrdr{
+	background-color:#A5B3BE;
+	/*margin:10px 0;*/
+}
+.tblbrdr td{
+	background-color:#FFF;
+	padding:2px;
+}
+
+/*.tblbrdr td:hover{
+	background-color:#A5BED6;
+}*/
+
+.tblbrdr th{
+	background-color:#F2F3F7;
+	padding:3px;
+}
+
+.tblbrdr .sel{
+	background-color:#FEFCED;
+}
+
+.cbx{
+	margin:0;
+	padding:0;
+	width:12px;
+	height:12px;
+}
+
+#printArea{
+	display:none;
+}
+.btn_img{
+	margin-top:1px;
+}
+.link_paging{
+	border:1px solid #999;
+	padding:0 2px;
+	margin-right:2px;
+	text-decoration:none;
+	color:#000;
+}
+
+.link_paging_curr{
+	background-color:#A8D3FF;
+	padding:3px;
+}
+
+.tblbrdr a:hover{
+	background-color:#FFCC99;
+}

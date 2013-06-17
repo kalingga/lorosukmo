@@ -1,0 +1,12 @@
+version 1.0 (November 11, 2006)
+
+    -   in some PHP versions there were some issues regarding passing variables by
+        reference
+    -   the class would produce no output (nor errors) in PHP versions lower than 5
+        due to the different implementations of PHP's get_class() function in these
+        versions
+
+version 1.0 BETA (September 13, 2006)
+
+    -   initial release
+

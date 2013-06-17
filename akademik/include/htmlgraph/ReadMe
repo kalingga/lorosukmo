@@ -1,0 +1,30 @@
+Zebra PHP Framework
+
+PHP HTML Graph Class
+
+author     Stefan Gabos, ix at nivelzero dot ro
+version    1.0 (last revision: November 11, 2006)
+copyright  (c) 2006 - 2007 Stefan Gabos
+
+A PHP class to draw vertical bar graphs.
+
+This class draws vertical graphs only by using HTML and CSS. No requirement for any external
+graphic library such as GD
+
+Simple and grouped bars can be created. You can change everything regarding the looks as the
+output is template driven. On the fly, you can change the size of graph, the color of all or
+individual bars, you can add labels, title, footnote or customize the CSS style of all the
+elements.
+
+One of the finest features of this class is that you are not anymore restricted to specify the
+width and/or height of your bar in pixels! You can also specify it in percents!
+
+The output looks the same way in all major browsers.
+
+Read the documentation for more information and check out the examples to see it at work!
+
+Read the LICENSE file, provided with the package, to find out how you can use this PHP script.
+If you don't find this file, please write an email to noname at nivelzero dot ro and you will be
+sent a copy of the license file
+
+For more resources visit http://stefangabos.blogspot.com

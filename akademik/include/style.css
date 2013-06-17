@@ -1,0 +1,46 @@
+/* CSS TEXT */
+.fwb{font-weight:bold;}
+.fwn{font-weight:normal;}
+.fsi{font-style:italic;}
+.tdu{text-decoration:underline;}
+.tdl{text-decoration:line-through;}
+.tdn{text-decoration:none;}
+.tac{text-align:center;}
+.tar{text-align:right;}
+.tal{text-align:left;}
+.taj{text-align:justify;}
+.fs9{font-size:9px;}
+.fs10{font-size:10px;}
+.fs11{font-size:11px;}
+.fs12{font-size:12px;}
+.fs13{font-size:13px;}
+.fs14{font-size:14px;}
+.fs15{font-size:15px;}
+.fs16{font-size:16px;}
+.fs17{font-size:17px;}
+.fs18{font-size:18px;}
+.fs19{font-size:19px;}
+.fs20{font-size:20px;}
+.fs21{font-size:21px;}
+.fs22{font:normal 22px Algerian;
+}
+.fs24{font-size:24px;}
+.bssolid{border:1px solid #000;}
+.bsdash{border:1px dashed #000;}
+.bsdot{border:1px dotted #000;}
+.bsdouble{border:1px double #000;}
+.bsgroove{border:1px groove #000;}
+.bw2{border-width:2px;}
+.m5{margin:5px;}
+.m10{margin:10px;}
+.p5{padding:5px;}
+.p10{padding:10px;}
+.bcyellow{background-color:#FFFF99;}
+.bcred{background-color:#FFC4C4;}
+.bcblue{background-color:#CCE6FF;}
+.bcwhite{background-color:#FFF;}
+.cred{color:#FF0000;}
+.cblue{color:#0066FF;}
+.cwhite{color:#FFFF;}
+.fl{float:left;}
+.fr{float:right;}

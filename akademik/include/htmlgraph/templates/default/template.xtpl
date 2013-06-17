@@ -1,0 +1,88 @@
+<!-- BEGIN: main -->
+<link rel="stylesheet" href="{templatePath}style.css" type="text/css">
+<table cellspacing="0" cellpadding="0" class="HTMLGraph_graph" style="width:{graphWidth}{graphWidthMeasurementUnit}; height:{graphHeight}{graphHeightMeasurementUnit};">
+    <!-- BEGIN: title -->
+    <tr>
+        <td class="HTMLGraph_title" style="{titleCustomStyle}">
+            {title}
+        </td>
+    </tr>
+    <!-- END: title -->
+    <tr>
+        <!-- BEGIN: vertical -->
+        <td class="HTMLGraph_fullSize">
+            <table cellspacing="0" cellpadding="0" class="HTMLGraph_fullSize" style="table-layout:fixed;">
+                <tr>
+                    <!-- BEGIN: header -->
+                    <!-- BEGIN: plotDelimiter -->
+                    <td rowspan="2" class="HTMLGraph_xAxis" style="width:{plotSpacing}px;" align="center" valign="bottom">
+                        <div class="HTMLGraph_xAxisTick"></div>
+                    </td>
+                    <!-- END: plotDelimiter -->
+                    <td colspan="{barCount}" class="HTMLGraph_valueTopMargin">&nbsp;</td>
+                    <!-- END: header -->
+                </tr>
+                <tr>
+                    <!-- BEGIN: bar -->
+                    <td class="HTMLGraph_fullSize">
+                        <table cellspacing="0" cellpadding="0" class="HTMLGraph_xAxis" style="width:100%;height:100%">
+                            <tr>
+                                <td style="width:{barSpacing};height:100%;" nowrap="nowrap" rowspan="2"></td>
+                                <td style="height:{blankSize}%;" valign="bottom">
+                                    <div class="HTMLGraph_fullSize">
+                                        <div class="HTMLGraph_value" style="{valueCustomStyle}">{value}</div>
+                                    </div>
+                                </td>
+                                <td style="width:{barSpacing}" nowrap="nowrap" rowspan="2"></td>
+                            </tr>
+                            <tr>
+                                <td class="HTMLGraph_barVertical" style="height:{solidSize}%;{barCustomStyle}">
+                                    <div style="position:relative;height:1px;">
+                                        <div style="position:absolute;visibility:hidden">&nbsp;</div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <!-- END: bar -->
+                </tr>
+                <tr>
+                    <!-- BEGIN: label -->
+                    <!-- BEGIN: plotDelimiter -->
+                    <td rowspan="2" style="width:{plotSpacing}px;"></td>
+                    <!-- END: plotDelimiter -->
+                    <td align="center">
+                        <table cellspacing="0" cellpadding="0" class="HTMLGraph_fullSize" style="table-layout:fixed">
+                            <tr>
+                                <td style="width:{barSpacing}" nowrap="nowrap"></td>
+                                <td class="HTMLGraph_label">
+                                    <span style="{labelCustomStyle}">
+                                        {label}
+                                    </span>
+                                </td>
+                                <td style="width:{barSpacing}" nowrap="nowrap"></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <!-- END: label -->
+                </tr>
+                <tr>
+                    <!-- BEGIN: plotLabel -->
+                    <td colspan="{barCount}" class="HTMLGraph_plotLabel">
+                        {plotLabel}
+                    </td>
+                    <!-- END: plotLabel -->
+                </tr>
+            </table>
+        </td>
+        <!-- END: vertical -->
+    </tr>
+    <!-- BEGIN: footnote -->
+    <tr>
+        <td class="HTMLGraph_footnote" style="{footnoteCustomStyle}">
+            {footnote}
+        </td>
+    </tr>
+    <!-- END: footnote -->
+</table>
+<!-- END: main -->
