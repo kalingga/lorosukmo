@@ -1,8 +1,0 @@
-update terakhir:
-- sks bisa 35 atau 50 menit, melalui form (add dan edit bisa)
-- 35 menit/sks khusus untuk kelas B, mulai jam 14.00
-
-file yang diedit terakhir:
-- sch.php
-- form_view.php
-- edit_form_view.php
