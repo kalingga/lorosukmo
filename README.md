@@ -4,5 +4,5 @@
 
 
 ####about you
-![Blog](http://choiroel.wordpress.com) | ![Twitter](http://twitter.xahax) | ![FB](http://fb.com/m4gent4)
+[Blog](http://choiroel.wordpress.com) | [Twitter](http://twitter.xahax) | [FB](http://fb.com/m4gent4)
 
