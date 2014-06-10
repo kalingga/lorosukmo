@@ -1,2 +1,1 @@
-LoroSukmo & DyahHanum
-=====================
+Rina Rahmawati
